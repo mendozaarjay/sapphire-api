@@ -10,6 +10,9 @@ namespace SapphireAPI.Models
         public int Id { get; set; }
         public virtual Company Company { get; set; }
         public virtual Branch Branch { get; set; }
+        public virtual Department Department { get; set; }
+        public virtual Position Position { get; set; }
+        public virtual EmployeeClassification EmployeeClassification { get; set; }
         public string EmployeeNo { get; set; }
         public string Firstname { get; set; }
         public string Middlename { get; set; }
